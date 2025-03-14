@@ -77,6 +77,18 @@ In the `main` function:
 
 The `if __name__ == "__main__":` block ensures that the script runs only when executed directly, not when imported as a module.
 
+### `unique.py`
+The `remove_duplicate` function removes duplicate words from a given list by converting it into a set (which stores only unique values) and then sorting it in ascending order.
+
+#### **How the program works:**
+- The user is prompted to enter a list of words separated by spaces.
+- Non-alphanumeric characters are removed using the `re.sub()` function, ensuring that only letters, numbers, and spaces remain.
+- The cleaned input is split into a list of words.
+- The program prints the original list before and after removing duplicates.
+- The unique words are sorted alphabetically and displayed.
+
+The `if __name__ == "__main__":` block ensures that the script runs only when executed directly, not when imported as a module.
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you’d like to add new Python programs or improve existing ones, follow these steps:
@@ -90,4 +102,3 @@ Contributions are welcome! If you’d like to add new Python programs or improve
 ## 📜 License
 
 This repository is open-source and available under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
-
