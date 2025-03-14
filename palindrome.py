@@ -4,7 +4,7 @@ def is_palindrome():
     input_string = input("Enter a string: ")
     print(f"Original string: {input_string}")
 
-    cleaned_string = re.sub(r'[^A-Za-z0-9]',"",input_string).lower()
+    cleaned_string = re.sub(r'[^A-Za-z0-9]', "",input_string).lower()
     
     reversed_string = cleaned_string[::-1] 
 
@@ -12,9 +12,9 @@ def is_palindrome():
     print(f"Reversed string : {reversed_string}")
 
     if reversed_string == cleaned_string:
-        print("✅The string is a palindrome")
+        print("✅ The string is a palindrome")
     else:
-        print("❌The string is NOT a palindrome")
+        print("❌T he string is NOT a palindrome")
 
 if __name__ == "__main__":
     is_palindrome()
