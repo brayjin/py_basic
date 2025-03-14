@@ -64,6 +64,19 @@ In this program, the `re` package is imported to handle regular expressions. The
 
 This approach ensures that punctuation, spaces, and case differences do not affect the palindrome check.
 
+### `large.py`
+The `find_large` function is responsible for finding the maximum integer in a given list using Python's built-in `max()` function.
+
+In the `main` function:
+
+- The program continuously prompts the user to enter a list of integers separated by spaces.
+- If the user does not enter any input, it asks them to provide at least one integer.
+- The input string is split into a list, and each element is converted to an integer using list comprehension.
+- If a non-integer value is entered, the program handles the `ValueError` exception and prompts the user to enter valid integers.
+- Finally, the largest number in the list is displayed.
+
+The `if __name__ == "__main__":` block ensures that the script runs only when executed directly, not when imported as a module.
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you’d like to add new Python programs or improve existing ones, follow these steps:
