@@ -1,13 +1,20 @@
 import re
-def main():
-    in_string = input("Enter a string: ")
-    print(f"Input string: {in_string}")
-    new_string = re.sub(r'[^A-Za-z0-9]',"",in_string).lower()
-    rev_string = new_string[::-1]
-    print(f"Reversed string (ignored spaces): {rev_string}")
-    if rev_string == new_string:
-        print("palindrome")
-    else:
-        print("not a palindrome")
+def is_palindrome():
+    """Check if a given string is a palindrome, ignoring spaces and special characters."""
+    input_string = input("Enter a string: ")
+    print(f"Original string: {input_string}")
 
-main()
+    cleaned_string = re.sub(r'[^A-Za-z0-9]',"",input_string).lower()
+    
+    reversed_string = cleaned_string[::-1] 
+
+    print(f"Processed string (ignoring spaces & special characters): {cleaned_string}")   
+    print(f"Reversed string : {reversed_string}")
+
+    if reversed_string == cleaned_string:
+        print("✅The string is a palindrome")
+    else:
+        print("❌The string is NOT a palindrome")
+
+if __name__ == "__main__":
+    is_palindrome()
