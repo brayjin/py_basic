@@ -2,6 +2,8 @@
 
 Welcome to the **Python Basics** repository! 🚀 This repository contains Python programs covering fundamental concepts such as lists, tuples, dictionaries, and more. It is designed for beginners who want to practice Python and improve their problem-solving skills.
 
+Is Updated daily
+
 ## 📌 Table of Contents
 
 - [Introduction](#introduction)
