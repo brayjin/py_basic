@@ -90,17 +90,3 @@ The `remove_duplicate` function removes duplicate words from a given list by con
 - The unique words are sorted alphabetically and displayed.
 
 The `if __name__ == "__main__":` block ensures that the script runs only when executed directly, not when imported as a module.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you’d like to add new Python programs or improve existing ones, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b new-feature`.
-3. Make your changes and commit them: `git commit -m 'Add new feature'`.
-4. Push the branch: `git push origin new-feature`.
-5. Open a Pull Request for review.
-
-## 📜 License
-
-This repository is open-source and available under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
